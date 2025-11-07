@@ -14,6 +14,7 @@ let person = {
 
 let output = Object.entries(person)
 console.log(output);
+let otput = Object.entries(person)
 
 let arr = [
     ["fname", "suhail"],

@@ -1,9 +1,11 @@
 //17. every() method
 
-let nums = [2 ,4 ,6 ,8]
+let nums = [2 ,4 ,6 ,8, 11]
 
 let check = nums.every((x) => x > 0 )
 console.log(check);
+
+let checkk = nums.every((x) => x > 0)
 
 
 // 18. find() method
@@ -16,6 +18,9 @@ let check2 = nums.find((x) => x < 0 )
 let check3= nums.find((x) => x > 0 )
 let check4 = nums.find((x) => x > 0 )
 
+let chick = nums.find((x) => x > 0)
+console.log(chick);
+
 console.log(check1);
 
 //19. findIndex() method
@@ -23,16 +28,21 @@ console.log(check1);
 let nums2 = [2 ,4 ,6 ,8]
 let check5 = nums.findIndex((x) => x > 3 )
 console.log(check5);
+let chick1 = nums.findIndex((x) => { x > 3})
 
 //20 forEach() Method
 
+try {
 let numbers = [1, 2, 3, 4, 5]
 
 console.log(numbers);
 numbers.forEach((ele) => {
     console.log(ele * 2);
 });
-console.log(numbers);
+console.log(numbers);}
+catch(error) {
+    console.log(error.name, error.message);
+}
 
 let names = ["kaif", "saboor", "rayyan", "kamran"]
 
@@ -85,8 +95,8 @@ console.log(output);
 // 24. Some method
 
 let arr1 = [2, 4, 6, 8, 11]
-let outputt = arr.every((x) => x % 2 ==0)
-let outputt1 = arr.some((x) => x % 2 ==0)
+let outputt = arr1.every((x) => x % 2 ==0)
+let outputt1 = arr1.some((x) => x % 2 ==0)
 console.log(outputt1);
 console.log(outputt);
 

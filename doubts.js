@@ -10,3 +10,11 @@ for (let i = 1; i <= 5; i++){
     }
     console.log(row,"answer");
 }
+
+// recursion
+// terenary
+// throw
+//forEach
+// map
+
+// pending
